@@ -10,20 +10,20 @@ while True:
             4- dividir 
         """)
 
-    valor = int(input("Elige una opcion: ") )     
+    valor = int(input("Elija una de las opciones: ") )     
 
     if valor == 1:
-        print("la suma es",num1+num2)
+        print("El resultado de la suma es",num1+num2)
         break;
     if valor == 2:
-        print("la resta es",num1-num2)
+        print("El resultado de la resta es",num1-num2)
         break;
     if valor == 3:
-        print("la multiplicacion total es: ",num1*num2)
+        print("la multiplicacion es",num1*num2)
         break;
     if valor == 4:
-        print("la division total es: ",num1/num2)
+        print("la division es",num1/num2)
         break;
     else:
-        print("Las opciones ingresadas son invalidas")
+        print("Opcion incorrecta")
         break;
