@@ -4,7 +4,7 @@ num2 = int(input("numero 2: "))
 valor = 0
 while True:
     print("""seleccione opcion
-            1- SUUUMAR 
+            1- Sumar sisisi
             2- Restar
             3- Multiplicar
             4- dividir 
